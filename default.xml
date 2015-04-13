@@ -478,7 +478,7 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
 `
 <!-- OutQast stuff -->
-<project path="kernel/moto/shamu" name="DespairFactor/Shamu" remote="github" revision="lp-mr1" />
+<project path="kernel/moto/shamu" name="DespairFactor/N6" remote="github" revision="master" />
 <project path="device/moto/shamu" name="Outqast/device_moto_shamu" remote="github" revision="lp-mr1"/>
 <project path="vendor/moto/shamu" name="Outqast/vendor_moto_shamu" remote="github" revision="lp-mr1" />
 <project path="vendor/outqast" name="Outqast/vendor_outqast" remote="github" revision="lp-mr1" />
