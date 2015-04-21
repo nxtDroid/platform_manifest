@@ -12,7 +12,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="Outqast/build" remote="github" revision="lp-mr1" >
+  <project path="build" name="nxtDroid/build" remote="github" revision="lp-mr1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -479,10 +479,10 @@
 `
 <!-- OutQast stuff -->
 <project path="kernel/moto/shamu" name="DespairFactor/N6" remote="github" revision="master" />
-<project path="device/moto/shamu" name="Outqast/device_moto_shamu" remote="github" revision="lp-mr1"/>
-<project path="vendor/moto/shamu" name="Outqast/vendor_moto_shamu" remote="github" revision="lp-mr1" />
-<project path="vendor/outqast" name="Outqast/vendor_outqast" remote="github" revision="lp-mr1" />
-<project path="frameworks/base" name="Outqast/frameworks_base" remote="github" revision="lp-mr1" />
-<project path="external/busybox" name="Outqast/external_busybox" remote="github" revision="lp-mr1" />
+<project path="device/moto/shamu" name="nxtDroid/device_moto_shamu" remote="github" revision="lp-mr1"/>
+<project path="vendor/moto/shamu" name="nxtDroid/vendor_moto_shamu" remote="github" revision="lp-mr1" />
+<project path="vendor/outqast" name="nxtDroid/vendor_outqast" remote="github" revision="lp-mr1" />
+<project path="frameworks/base" name="nxtDroid/frameworks_base" remote="github" revision="lp-mr1" />
+<project path="external/busybox" name="nxtDroid/external_busybox" remote="github" revision="lp-mr1" />
 
 </manifest>
